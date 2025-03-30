@@ -1,0 +1,2766 @@
+@startuml
+meta --> exported_on
+exported_on : 1743201542357
+meta --> version
+version : 5.114.1
+data --> newsletters
+newsletters --> newsletters_0
+newsletters_0 --> id
+id : 67e5c29a5418a60001e1b1b6
+newsletters_0 --> uuid
+uuid : 94841f4b-4916-41a9-aaff-9d2c35857ab2
+newsletters_0 --> name
+name : daniel
+newsletters_0 --> description
+description : None
+newsletters_0 --> feedback_enabled
+feedback_enabled : 0
+newsletters_0 --> slug
+slug : default-newsletter
+newsletters_0 --> sender_name
+sender_name : None
+newsletters_0 --> sender_email
+sender_email : None
+newsletters_0 --> sender_reply_to
+sender_reply_to : newsletter
+newsletters_0 --> status
+status : active
+newsletters_0 --> visibility
+visibility : members
+newsletters_0 --> subscribe_on_signup
+subscribe_on_signup : 1
+newsletters_0 --> sort_order
+sort_order : 0
+newsletters_0 --> header_image
+header_image : None
+newsletters_0 --> show_header_icon
+show_header_icon : 1
+newsletters_0 --> show_header_title
+show_header_title : 1
+newsletters_0 --> show_excerpt
+show_excerpt : 0
+newsletters_0 --> title_font_category
+title_font_category : sans_serif
+newsletters_0 --> title_alignment
+title_alignment : center
+newsletters_0 --> show_feature_image
+show_feature_image : 1
+newsletters_0 --> body_font_category
+body_font_category : sans_serif
+newsletters_0 --> footer_content
+footer_content : None
+newsletters_0 --> show_badge
+show_badge : 1
+newsletters_0 --> show_header_name
+show_header_name : 0
+newsletters_0 --> show_post_title_section
+show_post_title_section : 1
+newsletters_0 --> show_comment_cta
+show_comment_cta : 1
+newsletters_0 --> show_subscription_details
+show_subscription_details : 0
+newsletters_0 --> show_latest_posts
+show_latest_posts : 0
+newsletters_0 --> background_color
+background_color : light
+newsletters_0 --> border_color
+border_color : None
+newsletters_0 --> title_color
+title_color : None
+newsletters_0 --> created_at
+created_at : 2025-03-27 21:26:50
+newsletters_0 --> updated_at
+updated_at : 2025-03-27 21:29:34
+data --> posts
+posts --> posts_0
+posts_0 --> id
+id : 67e5c29b5418a60001e1b230
+posts_0 --> uuid
+uuid : 0b6f8138-b2b7-43f9-bc6a-9f085cefcc00
+posts_0 --> title
+title : Coming soon
+posts_0 --> slug
+slug : coming-soon
+posts_0 --> mobiledoc
+mobiledoc : {"version":"0.3.1","atoms":[],"cards":[],"markups":[["a",["href","#/portal/"]]],"sections":[[1,"p",[[0,[],0,"This is daniel, a brand new site by daniel that's just getting started. Things will be up and running here shortly, but you can "],[0,[0],1,"subscribe"],[0,[],0," in the meantime if you'd like to stay up to date and receive emails when new content is published!"]]]],"ghostVersion":"4.0"}
+posts_0 --> lexical
+lexical : None
+posts_0 --> html
+html : <p>This is daniel, a brand new site by daniel that's just getting started. Things will be up and running here shortly, but you can <a href="#/portal/">subscribe</a> in the meantime if you'd like to stay up to date and receive emails when new content is published!</p>
+posts_0 --> comment_id
+comment_id : 67e5c29b5418a60001e1b230
+posts_0 --> plaintext
+plaintext : This is daniel, a brand new site by daniel that's just getting started. Things will be up and running here shortly, but you can subscribe in the meantime if you'd like to stay up to date and receive emails when new content is published!
+posts_0 --> feature_image
+feature_image : https://static.ghost.org/v4.0.0/images/feature-image.jpg
+posts_0 --> featured
+featured : 0
+posts_0 --> type
+type : post
+posts_0 --> status
+status : published
+posts_0 --> locale
+locale : None
+posts_0 --> visibility
+visibility : public
+posts_0 --> email_recipient_filter
+email_recipient_filter : all
+posts_0 --> created_at
+created_at : 2025-03-27 21:26:51
+posts_0 --> created_by
+created_by : 1
+posts_0 --> updated_at
+updated_at : 2025-03-27 21:29:34
+posts_0 --> updated_by
+updated_by : 67e5c29b5418a60001e1b230
+posts_0 --> published_at
+published_at : 2025-03-27 21:26:51
+posts_0 --> published_by
+published_by : 1
+posts_0 --> custom_excerpt
+custom_excerpt : None
+posts_0 --> codeinjection_head
+codeinjection_head : None
+posts_0 --> codeinjection_foot
+codeinjection_foot : None
+posts_0 --> custom_template
+custom_template : None
+posts_0 --> canonical_url
+canonical_url : None
+posts_0 --> newsletter_id
+newsletter_id : None
+posts_0 --> show_title_and_feature_image
+show_title_and_feature_image : 1
+posts --> posts_1
+posts_1 --> id
+id : 67e5c29c5418a60001e1b232
+posts_1 --> uuid
+uuid : b692b87e-f350-4b9d-8941-7c2bf2e693cd
+posts_1 --> title
+title : About this site
+posts_1 --> slug
+slug : about
+posts_1 --> mobiledoc
+mobiledoc : {"version":"0.3.1","atoms":[],"cards":[["hr",{}]],"markups":[["a",["href","https://ghost.org"]]],"sections":[[1,"p",[[0,[],0,"daniel is an independent publication launched in March 2025 by daniel. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows daniel to continue to exist. Thank you!"]]],[1,"h3",[[0,[],0,"Access all areas"]]],[1,"p",[[0,[],0,"By signing up, you'll get access to the full archive of everything that's been published before and everything that's still to come. Your very own private library."]]],[1,"h3",[[0,[],0,"Fresh content, delivered"]]],[1,"p",[[0,[],0,"Stay up to date with new content sent straight to your inbox! No more worrying about whether you missed something because of a pesky algorithm or news feed."]]],[1,"h3",[[0,[],0,"Meet people like you"]]],[1,"p",[[0,[],0,"Join a community of other subscribers who share the same interests."]]],[10,0],[1,"h3",[[0,[],0,"Start your own thing"]]],[1,"p",[[0,[],0,"Enjoying the experience? Get started for free and set up your very own subscription business using "],[0,[0],1,"Ghost"],[0,[],0,", the same platform that powers this website."]]]],"ghostVersion":"4.0"}
+posts_1 --> lexical
+lexical : None
+posts_1 --> html
+html : <p>daniel is an independent publication launched in March 2025 by daniel. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows daniel to continue to exist. Thank you!</p><h3 id="access-all-areas">Access all areas</h3><p>By signing up, you'll get access to the full archive of everything that's been published before and everything that's still to come. Your very own private library.</p><h3 id="fresh-content-delivered">Fresh content, delivered</h3><p>Stay up to date with new content sent straight to your inbox! No more worrying about whether you missed something because of a pesky algorithm or news feed.</p><h3 id="meet-people-like-you">Meet people like you</h3><p>Join a community of other subscribers who share the same interests.</p><hr><h3 id="start-your-own-thing">Start your own thing</h3><p>Enjoying the experience? Get started for free and set up your very own subscription business using <a href="https://ghost.org">Ghost</a>, the same platform that powers this website.</p>
+posts_1 --> comment_id
+comment_id : 67e5c29c5418a60001e1b232
+posts_1 --> plaintext
+plaintext : daniel is an independent publication launched in March 2025 by daniel. If you subscribe today, you'll get full access to the website as well as email newsletters about new content when it's available. Your subscription makes this site possible, and allows daniel to continue to exist. Thank you!
+
+
+Access all areas
+
+By signing up, you'll get access to the full archive of everything that's been published before and everything that's still to come. Your very own private library.
+
+
+Fresh content, delivered
+
+Stay up to date with new content sent straight to your inbox! No more worrying about whether you missed something because of a pesky algorithm or news feed.
+
+
+Meet people like you
+
+Join a community of other subscribers who share the same interests.
+
+
+Start your own thing
+
+Enjoying the experience? Get started for free and set up your very own subscription business using Ghost, the same platform that powers this website.
+posts_1 --> feature_image
+feature_image : None
+posts_1 --> featured
+featured : 0
+posts_1 --> type
+type : page
+posts_1 --> status
+status : published
+posts_1 --> locale
+locale : None
+posts_1 --> visibility
+visibility : public
+posts_1 --> email_recipient_filter
+email_recipient_filter : all
+posts_1 --> created_at
+created_at : 2025-03-27 21:26:52
+posts_1 --> created_by
+created_by : 1
+posts_1 --> updated_at
+updated_at : 2025-03-27 21:29:34
+posts_1 --> updated_by
+updated_by : 67e5c29c5418a60001e1b232
+posts_1 --> published_at
+published_at : 2025-03-27 21:26:52
+posts_1 --> published_by
+published_by : 1
+posts_1 --> custom_excerpt
+custom_excerpt : None
+posts_1 --> codeinjection_head
+codeinjection_head : None
+posts_1 --> codeinjection_foot
+codeinjection_foot : None
+posts_1 --> custom_template
+custom_template : None
+posts_1 --> canonical_url
+canonical_url : None
+posts_1 --> newsletter_id
+newsletter_id : None
+posts_1 --> show_title_and_feature_image
+show_title_and_feature_image : 1
+data --> posts_meta
+data --> users
+users --> users_0
+users_0 --> id
+id : 1
+users_0 --> name
+name : daniel
+users_0 --> slug
+slug : daniel
+users_0 --> password
+password : $2a$10$AAsuF6iDwzgpVhMZta2nF.UwvR184O6dQAHd06OnXnKbMa/qNIrS.
+users_0 --> email
+email : danielsierra34@gmail.com
+users_0 --> profile_image
+profile_image : None
+users_0 --> cover_image
+cover_image : None
+users_0 --> bio
+bio : None
+users_0 --> website
+website : None
+users_0 --> location
+location : None
+users_0 --> facebook
+facebook : None
+users_0 --> twitter
+twitter : None
+users_0 --> accessibility
+accessibility : {"onboarding":{"completedSteps":["customize-design","first-post"],"checklistState":"dismissed"},"whatsNew":{"lastSeenDate":"2025-02-05T12:37:26.000+00:00"},"nightShift":false}
+users_0 --> status
+status : active
+users_0 --> locale
+locale : None
+users_0 --> visibility
+visibility : public
+users_0 --> meta_title
+meta_title : None
+users_0 --> meta_description
+meta_description : None
+users_0 --> tour
+tour : None
+users_0 --> last_seen
+last_seen : 2025-03-28 22:22:14
+users_0 --> comment_notifications
+comment_notifications : 1
+users_0 --> free_member_signup_notification
+free_member_signup_notification : 1
+users_0 --> paid_subscription_started_notification
+paid_subscription_started_notification : 1
+users_0 --> paid_subscription_canceled_notification
+paid_subscription_canceled_notification : 0
+users_0 --> mention_notifications
+mention_notifications : 1
+users_0 --> recommendation_notifications
+recommendation_notifications : 1
+users_0 --> milestone_notifications
+milestone_notifications : 1
+users_0 --> donation_notifications
+donation_notifications : 1
+users_0 --> created_at
+created_at : 2025-03-27 21:26:49
+users_0 --> created_by
+created_by : 1
+users_0 --> updated_at
+updated_at : 2025-03-28 22:22:14
+users_0 --> updated_by
+updated_by : 1
+data --> posts_authors
+posts_authors --> posts_authors_0
+posts_authors_0 --> id
+id : 67e5c29c5418a60001e1b231
+posts_authors_0 --> post_id
+post_id : 67e5c29b5418a60001e1b230
+posts_authors_0 --> author_id
+author_id : 1
+posts_authors_0 --> sort_order
+sort_order : 0
+posts_authors --> posts_authors_1
+posts_authors_1 --> id
+id : 67e5c29c5418a60001e1b233
+posts_authors_1 --> post_id
+post_id : 67e5c29c5418a60001e1b232
+posts_authors_1 --> author_id
+author_id : 1
+posts_authors_1 --> sort_order
+sort_order : 0
+data --> roles
+roles --> roles_0
+roles_0 --> id
+id : 67e5c2995418a60001e1b1a6
+roles_0 --> name
+name : Administrator
+roles_0 --> description
+description : Administrators
+roles_0 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_0 --> created_by
+created_by : 1
+roles_0 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_0 --> updated_by
+updated_by : 1
+roles --> roles_1
+roles_1 --> id
+id : 67e5c2995418a60001e1b1a7
+roles_1 --> name
+name : Editor
+roles_1 --> description
+description : Editors
+roles_1 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_1 --> created_by
+created_by : 1
+roles_1 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_1 --> updated_by
+updated_by : 1
+roles --> roles_2
+roles_2 --> id
+id : 67e5c2995418a60001e1b1a8
+roles_2 --> name
+name : Author
+roles_2 --> description
+description : Authors
+roles_2 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_2 --> created_by
+created_by : 1
+roles_2 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_2 --> updated_by
+updated_by : 1
+roles --> roles_3
+roles_3 --> id
+id : 67e5c2995418a60001e1b1a9
+roles_3 --> name
+name : Contributor
+roles_3 --> description
+description : Contributors
+roles_3 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_3 --> created_by
+created_by : 1
+roles_3 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_3 --> updated_by
+updated_by : 1
+roles --> roles_4
+roles_4 --> id
+id : 67e5c2995418a60001e1b1aa
+roles_4 --> name
+name : Owner
+roles_4 --> description
+description : Blog Owner
+roles_4 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_4 --> created_by
+created_by : 1
+roles_4 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_4 --> updated_by
+updated_by : 1
+roles --> roles_5
+roles_5 --> id
+id : 67e5c2995418a60001e1b1ab
+roles_5 --> name
+name : Admin Integration
+roles_5 --> description
+description : External Apps
+roles_5 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_5 --> created_by
+created_by : 1
+roles_5 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_5 --> updated_by
+updated_by : 1
+roles --> roles_6
+roles_6 --> id
+id : 67e5c2995418a60001e1b1ac
+roles_6 --> name
+name : Ghost Explore Integration
+roles_6 --> description
+description : Internal Integration for the Ghost Explore directory
+roles_6 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_6 --> created_by
+created_by : 1
+roles_6 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_6 --> updated_by
+updated_by : 1
+roles --> roles_7
+roles_7 --> id
+id : 67e5c2995418a60001e1b1ad
+roles_7 --> name
+name : Self-Serve Migration Integration
+roles_7 --> description
+description : Internal Integration for the Self-Serve migration tool
+roles_7 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_7 --> created_by
+created_by : 1
+roles_7 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_7 --> updated_by
+updated_by : 1
+roles --> roles_8
+roles_8 --> id
+id : 67e5c2995418a60001e1b1ae
+roles_8 --> name
+name : DB Backup Integration
+roles_8 --> description
+description : Internal DB Backup Client
+roles_8 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_8 --> created_by
+created_by : 1
+roles_8 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_8 --> updated_by
+updated_by : 1
+roles --> roles_9
+roles_9 --> id
+id : 67e5c2995418a60001e1b1af
+roles_9 --> name
+name : Scheduler Integration
+roles_9 --> description
+description : Internal Scheduler Client
+roles_9 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_9 --> created_by
+created_by : 1
+roles_9 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_9 --> updated_by
+updated_by : 1
+roles --> roles_10
+roles_10 --> id
+id : 67e5c2995418a60001e1b1b0
+roles_10 --> name
+name : Super Editor
+roles_10 --> description
+description : Super Editors
+roles_10 --> created_at
+created_at : 2025-03-27 21:26:49
+roles_10 --> created_by
+created_by : 1
+roles_10 --> updated_at
+updated_at : 2025-03-27 21:26:49
+roles_10 --> updated_by
+updated_by : 1
+data --> roles_users
+roles_users --> roles_users_0
+roles_users_0 --> id
+id : 67e5c29a5418a60001e1b1b1
+roles_users_0 --> role_id
+role_id : 67e5c2995418a60001e1b1aa
+roles_users_0 --> user_id
+user_id : 1
+data --> settings
+settings --> settings_0
+settings_0 --> id
+id : 67e5c29d5418a60001e1b3dd
+settings_0 --> group
+group : core
+settings_0 --> key
+key : last_mentions_report_email_timestamp
+settings_0 --> value
+value : None
+settings_0 --> type
+type : number
+settings_0 --> flags
+flags : None
+settings_0 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_0 --> created_by
+created_by : 1
+settings_0 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_0 --> updated_by
+updated_by : 1
+settings --> settings_1
+settings_1 --> id
+id : 67e5c29d5418a60001e1b3de
+settings_1 --> group
+group : core
+settings_1 --> key
+key : db_hash
+settings_1 --> value
+value : 727e0832-2eb4-4625-8c18-9d644d5f2d93
+settings_1 --> type
+type : string
+settings_1 --> flags
+flags : None
+settings_1 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_1 --> created_by
+created_by : 1
+settings_1 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_1 --> updated_by
+updated_by : 1
+settings --> settings_2
+settings_2 --> id
+id : 67e5c29d5418a60001e1b3df
+settings_2 --> group
+group : core
+settings_2 --> key
+key : routes_hash
+settings_2 --> value
+value : 3d180d52c663d173a6be791ef411ed01
+settings_2 --> type
+type : string
+settings_2 --> flags
+flags : None
+settings_2 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_2 --> created_by
+created_by : 1
+settings_2 --> updated_at
+updated_at : 2025-03-27 21:26:56
+settings_2 --> updated_by
+updated_by : 1
+settings --> settings_3
+settings_3 --> id
+id : 67e5c29d5418a60001e1b3e0
+settings_3 --> group
+group : core
+settings_3 --> key
+key : next_update_check
+settings_3 --> value
+value : 1743198047
+settings_3 --> type
+type : number
+settings_3 --> flags
+flags : None
+settings_3 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_3 --> created_by
+created_by : 1
+settings_3 --> updated_at
+updated_at : 2025-03-28 22:38:38
+settings_3 --> updated_by
+updated_by : 1
+settings --> settings_4
+settings_4 --> id
+id : 67e5c29d5418a60001e1b3e1
+settings_4 --> group
+group : core
+settings_4 --> key
+key : notifications
+settings_4 --> value
+value : [{"dismissible":true,"location":"bottom","status":"alert","id":"67e5c33f5418a60001e1b464","createdAtVersion":"5.114.1","type":"warn","message":"Ghost is currently unable to send email. See https://ghost.org/docs/concepts/config/#mail for instructions.","seen":false,"addedAt":"2025-03-27T21:29:35.150Z"}]
+settings_4 --> type
+type : array
+settings_4 --> flags
+flags : None
+settings_4 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_4 --> created_by
+created_by : 1
+settings_4 --> updated_at
+updated_at : 2025-03-27 21:29:35
+settings_4 --> updated_by
+updated_by : 1
+settings --> settings_5
+settings_5 --> id
+id : 67e5c29d5418a60001e1b3e2
+settings_5 --> group
+group : core
+settings_5 --> key
+key : version_notifications
+settings_5 --> value
+value : []
+settings_5 --> type
+type : array
+settings_5 --> flags
+flags : None
+settings_5 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_5 --> created_by
+created_by : 1
+settings_5 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_5 --> updated_by
+updated_by : 1
+settings --> settings_6
+settings_6 --> id
+id : 67e5c29d5418a60001e1b3e3
+settings_6 --> group
+group : core
+settings_6 --> key
+key : admin_session_secret
+settings_6 --> value
+value : 733471d0b0869fcce3862ba82687b37f9b83b7388deb272aeae6e6a3622311ca
+settings_6 --> type
+type : string
+settings_6 --> flags
+flags : None
+settings_6 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_6 --> created_by
+created_by : 1
+settings_6 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_6 --> updated_by
+updated_by : 1
+settings --> settings_7
+settings_7 --> id
+id : 67e5c29d5418a60001e1b3e4
+settings_7 --> group
+group : core
+settings_7 --> key
+key : theme_session_secret
+settings_7 --> value
+value : 57d018c84eb7eb73b3e30003c025d83b31072f770944be80c5e2614e0bc5298a
+settings_7 --> type
+type : string
+settings_7 --> flags
+flags : None
+settings_7 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_7 --> created_by
+created_by : 1
+settings_7 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_7 --> updated_by
+updated_by : 1
+settings --> settings_8
+settings_8 --> id
+id : 67e5c29d5418a60001e1b3e5
+settings_8 --> group
+group : core
+settings_8 --> key
+key : ghost_public_key
+settings_8 --> value
+value : -----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAL/VydattjiAGbxTbBYNQsiNewLnECgzk/RbSlk78umsrXo5kAKele07SFIvCCZ8
+IUoflTldYNNrUt+8WDGhATCm4D3AUgl8JybEWKdCskbyotA5NJp6rqvwccwzKUtdB9VPaozZ
+lqpF9Rd/Ae0907kNGIMl4enJiBZXCsNIDHlDAgMBAAE=
+-----END RSA PUBLIC KEY-----
+
+settings_8 --> type
+type : string
+settings_8 --> flags
+flags : None
+settings_8 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_8 --> created_by
+created_by : 1
+settings_8 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_8 --> updated_by
+updated_by : 1
+settings --> settings_9
+settings_9 --> id
+id : 67e5c29d5418a60001e1b3e6
+settings_9 --> group
+group : core
+settings_9 --> key
+key : ghost_private_key
+settings_9 --> value
+value : -----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQC/1cnWrbY4gBm8U2wWDULIjXsC5xAoM5P0W0pZO/LprK16OZACnpXtO0hS
+LwgmfCFKH5U5XWDTa1LfvFgxoQEwpuA9wFIJfCcmxFinQrJG8qLQOTSaeq6r8HHMMylLXQfV
+T2qM2ZaqRfUXfwHtPdO5DRiDJeHpyYgWVwrDSAx5QwIDAQABAoGAMgQMhuNtshd8HkTl1m4I
+rn9sxhn2dXTVK42tucxOjixOYqKlcHlmf57IQV0v09DjYQ8Q+g7lktnVlq3llLL0uwWgqPEb
+eKlc83kF6D1lZVMRDJr+5tCBzRPL5JzO9q3go7zNey8ar4Rr9wyITH5TdOh+If6OOlbRjgSm
+C0RkuGkCQQDw9v/GrV0DtgX94Ii29X/yx9p/SPaqz00H/aKq6DaLlHcZnBXdzidmtzbW0gD2
++BgHWtnin/S3nnqrMj/7p3InAkEAy84GpkqW6eR+OCXoh9j2hBEzPgaFTV5pHeztXk+Ad6C9
+XsOxXDXXdauVtXTH0Nv4VtLah1ki4nsK0h/MmXpdhQJBAL4OY4Fl/cZOjH1I2yxLiIaKQXlB
+qGTjKuPRlrrsexEuoZ3OcaTH1GX8vkFD1ET3O6SZcN+BwHgPhLuA39xynuMCQGYcv/AphxuB
+RExVkgAekMTy6T22fquZFgnMX9HU+4T0oG0Ol5qfz2hBpCzaahMXY4H8+0i9PGFFTNKi5Bwx
+1xECQAPYGl+FqsAwVbrA9louAW5Kz4hu3NpOXfPdpnRus1nzvaLcMCHou/gPczPjX3V8V1bw
+ZOMVCukrDDKJXUQgnz4=
+-----END RSA PRIVATE KEY-----
+
+settings_9 --> type
+type : string
+settings_9 --> flags
+flags : None
+settings_9 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_9 --> created_by
+created_by : 1
+settings_9 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_9 --> updated_by
+updated_by : 1
+settings --> settings_10
+settings_10 --> id
+id : 67e5c29d5418a60001e1b3e7
+settings_10 --> group
+group : core
+settings_10 --> key
+key : members_public_key
+settings_10 --> value
+value : -----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAIogAdzN5geTmJl2xWcN6We/IhWO+Eoy2hD9FMNi7bcE6d3FN2EzoUoBBESzGHnB
+eJSdHComdUx2Ds86JZqK3YBn/pfTIpLd3kBjFm5uPTP1cJZ2C58TWj7FpdNUCBT545cH2nK9
+xxc9DHJd123FDFSGuDMHzsAkjLW2wiloxjexAgMBAAE=
+-----END RSA PUBLIC KEY-----
+
+settings_10 --> type
+type : string
+settings_10 --> flags
+flags : None
+settings_10 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_10 --> created_by
+created_by : 1
+settings_10 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_10 --> updated_by
+updated_by : 1
+settings --> settings_11
+settings_11 --> id
+id : 67e5c29d5418a60001e1b3e8
+settings_11 --> group
+group : core
+settings_11 --> key
+key : members_private_key
+settings_11 --> value
+value : -----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCKIAHczeYHk5iZdsVnDelnvyIVjvhKMtoQ/RTDYu23BOndxTdhM6FKAQRE
+sxh5wXiUnRwqJnVMdg7POiWait2AZ/6X0yKS3d5AYxZubj0z9XCWdgufE1o+xaXTVAgU+eOX
+B9pyvccXPQxyXddtxQxUhrgzB87AJIy1tsIpaMY3sQIDAQABAoGAMzqp1i5bucWpXInrr0w+
+nGcMijhrqIFx1ck4ETu49R+SadmCr7+Je7wizCQs2MPEKEKZNpzq9n/3AC8N0WLdwf0cPSr3
+1o+27ZPTHNEw8jO8H8Kc3+uVKFnhf0z9ZI7oLHQLKfahB82YuMsTFdS+ho2Vb70MZrPaXvAo
+lDKdUNECQQDQER0JZWFEDRbFqzYrE+emX9BmVRKh/SOlsbSzeaWjK+UppqogoW8bB2pz/FEA
+JW9nLzkHsl+4TIPcMC69cHxlAkEAqfIGyXnF7/6rA1RGQZAeCOtZNLnnFiKaCMuiB3Trt8Wy
+0EXFqsaHFmsfnM4zgmj2Ht8lQrPvGLCFJ+lRHQr7XQJALTPqmQX7cateTSd7JzS12QFr5y+I
+UsUKH49R8MP25lI9ASWCRICOANNFn1krx9paL5Kk0zU/cmy9IPMe1G1BuQJAZRsWqpsGBchP
+WcWznqHtHIVYJyRKtUKUvZLYrPMEoeq+fWZlOTqvd8j3n8SVpIppkuhTNKH0J44tShdnKI42
+CQJBALRFeNAlzNU4EFaQqbaC02Ar4hfyYzFAsRT/5PFXOe8KNiF9Hbi1pa1LEQKaDLsqxsXd
+RUQI8n2Jgh5AOZEFfss=
+-----END RSA PRIVATE KEY-----
+
+settings_11 --> type
+type : string
+settings_11 --> flags
+flags : None
+settings_11 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_11 --> created_by
+created_by : 1
+settings_11 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_11 --> updated_by
+updated_by : 1
+settings --> settings_12
+settings_12 --> id
+id : 67e5c29d5418a60001e1b3e9
+settings_12 --> group
+group : core
+settings_12 --> key
+key : members_email_auth_secret
+settings_12 --> value
+value : 5d8a3278c80a82998fa58ba8ae95c9bb229352d12f280b6334d91dd0358e5b04a5b88535e64ba57cb51eda9f2621d3e37f29061c79c2cf5f1a268627d9ebe70a
+settings_12 --> type
+type : string
+settings_12 --> flags
+flags : None
+settings_12 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_12 --> created_by
+created_by : 1
+settings_12 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_12 --> updated_by
+updated_by : 1
+settings --> settings_13
+settings_13 --> id
+id : 67e5c29d5418a60001e1b3ec
+settings_13 --> group
+group : site
+settings_13 --> key
+key : title
+settings_13 --> value
+value : daniel
+settings_13 --> type
+type : string
+settings_13 --> flags
+flags : PUBLIC
+settings_13 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_13 --> created_by
+created_by : 1
+settings_13 --> updated_at
+updated_at : 2025-03-27 21:29:34
+settings_13 --> updated_by
+updated_by : 1
+settings --> settings_14
+settings_14 --> id
+id : 67e5c29d5418a60001e1b3ed
+settings_14 --> group
+group : site
+settings_14 --> key
+key : description
+settings_14 --> value
+value : Thoughts, stories and ideas.
+settings_14 --> type
+type : string
+settings_14 --> flags
+flags : PUBLIC
+settings_14 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_14 --> created_by
+created_by : 1
+settings_14 --> updated_at
+updated_at : 2025-03-27 21:29:34
+settings_14 --> updated_by
+updated_by : 1
+settings --> settings_15
+settings_15 --> id
+id : 67e5c29d5418a60001e1b3ee
+settings_15 --> group
+group : site
+settings_15 --> key
+key : heading_font
+settings_15 --> value
+value : 
+settings_15 --> type
+type : string
+settings_15 --> flags
+flags : None
+settings_15 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_15 --> created_by
+created_by : 1
+settings_15 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_15 --> updated_by
+updated_by : 1
+settings --> settings_16
+settings_16 --> id
+id : 67e5c29d5418a60001e1b3ef
+settings_16 --> group
+group : site
+settings_16 --> key
+key : body_font
+settings_16 --> value
+value : 
+settings_16 --> type
+type : string
+settings_16 --> flags
+flags : None
+settings_16 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_16 --> created_by
+created_by : 1
+settings_16 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_16 --> updated_by
+updated_by : 1
+settings --> settings_17
+settings_17 --> id
+id : 67e5c29d5418a60001e1b3f0
+settings_17 --> group
+group : site
+settings_17 --> key
+key : logo
+settings_17 --> value
+value : 
+settings_17 --> type
+type : string
+settings_17 --> flags
+flags : None
+settings_17 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_17 --> created_by
+created_by : 1
+settings_17 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_17 --> updated_by
+updated_by : 1
+settings --> settings_18
+settings_18 --> id
+id : 67e5c29d5418a60001e1b3f1
+settings_18 --> group
+group : site
+settings_18 --> key
+key : cover_image
+settings_18 --> value
+value : https://static.ghost.org/v5.0.0/images/publication-cover.jpg
+settings_18 --> type
+type : string
+settings_18 --> flags
+flags : None
+settings_18 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_18 --> created_by
+created_by : 1
+settings_18 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_18 --> updated_by
+updated_by : 1
+settings --> settings_19
+settings_19 --> id
+id : 67e5c29d5418a60001e1b3f2
+settings_19 --> group
+group : site
+settings_19 --> key
+key : icon
+settings_19 --> value
+value : 
+settings_19 --> type
+type : string
+settings_19 --> flags
+flags : None
+settings_19 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_19 --> created_by
+created_by : 1
+settings_19 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_19 --> updated_by
+updated_by : 1
+settings --> settings_20
+settings_20 --> id
+id : 67e5c29d5418a60001e1b3f3
+settings_20 --> group
+group : site
+settings_20 --> key
+key : accent_color
+settings_20 --> value
+value : #FF1A75
+settings_20 --> type
+type : string
+settings_20 --> flags
+flags : PUBLIC
+settings_20 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_20 --> created_by
+created_by : 1
+settings_20 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_20 --> updated_by
+updated_by : 1
+settings --> settings_21
+settings_21 --> id
+id : 67e5c29d5418a60001e1b3f4
+settings_21 --> group
+group : site
+settings_21 --> key
+key : locale
+settings_21 --> value
+value : en
+settings_21 --> type
+type : string
+settings_21 --> flags
+flags : None
+settings_21 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_21 --> created_by
+created_by : 1
+settings_21 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_21 --> updated_by
+updated_by : 1
+settings --> settings_22
+settings_22 --> id
+id : 67e5c29d5418a60001e1b3f5
+settings_22 --> group
+group : site
+settings_22 --> key
+key : timezone
+settings_22 --> value
+value : Etc/UTC
+settings_22 --> type
+type : string
+settings_22 --> flags
+flags : None
+settings_22 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_22 --> created_by
+created_by : 1
+settings_22 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_22 --> updated_by
+updated_by : 1
+settings --> settings_23
+settings_23 --> id
+id : 67e5c29d5418a60001e1b3f6
+settings_23 --> group
+group : site
+settings_23 --> key
+key : codeinjection_head
+settings_23 --> value
+value : 
+settings_23 --> type
+type : string
+settings_23 --> flags
+flags : None
+settings_23 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_23 --> created_by
+created_by : 1
+settings_23 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_23 --> updated_by
+updated_by : 1
+settings --> settings_24
+settings_24 --> id
+id : 67e5c29d5418a60001e1b3f7
+settings_24 --> group
+group : site
+settings_24 --> key
+key : codeinjection_foot
+settings_24 --> value
+value : 
+settings_24 --> type
+type : string
+settings_24 --> flags
+flags : None
+settings_24 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_24 --> created_by
+created_by : 1
+settings_24 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_24 --> updated_by
+updated_by : 1
+settings --> settings_25
+settings_25 --> id
+id : 67e5c29d5418a60001e1b3f8
+settings_25 --> group
+group : site
+settings_25 --> key
+key : facebook
+settings_25 --> value
+value : ghost
+settings_25 --> type
+type : string
+settings_25 --> flags
+flags : None
+settings_25 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_25 --> created_by
+created_by : 1
+settings_25 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_25 --> updated_by
+updated_by : 1
+settings --> settings_26
+settings_26 --> id
+id : 67e5c29d5418a60001e1b3f9
+settings_26 --> group
+group : site
+settings_26 --> key
+key : twitter
+settings_26 --> value
+value : @ghost
+settings_26 --> type
+type : string
+settings_26 --> flags
+flags : None
+settings_26 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_26 --> created_by
+created_by : 1
+settings_26 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_26 --> updated_by
+updated_by : 1
+settings --> settings_27
+settings_27 --> id
+id : 67e5c29d5418a60001e1b3fa
+settings_27 --> group
+group : site
+settings_27 --> key
+key : navigation
+settings_27 --> value
+value : [{"label":"Home","url":"/"},{"label":"About","url":"/about/"}]
+settings_27 --> type
+type : array
+settings_27 --> flags
+flags : None
+settings_27 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_27 --> created_by
+created_by : 1
+settings_27 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_27 --> updated_by
+updated_by : 1
+settings --> settings_28
+settings_28 --> id
+id : 67e5c29d5418a60001e1b3fb
+settings_28 --> group
+group : site
+settings_28 --> key
+key : secondary_navigation
+settings_28 --> value
+value : [{"label":"Sign up","url":"#/portal/"}]
+settings_28 --> type
+type : array
+settings_28 --> flags
+flags : None
+settings_28 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_28 --> created_by
+created_by : 1
+settings_28 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_28 --> updated_by
+updated_by : 1
+settings --> settings_29
+settings_29 --> id
+id : 67e5c29d5418a60001e1b3fc
+settings_29 --> group
+group : site
+settings_29 --> key
+key : meta_title
+settings_29 --> value
+value : None
+settings_29 --> type
+type : string
+settings_29 --> flags
+flags : None
+settings_29 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_29 --> created_by
+created_by : 1
+settings_29 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_29 --> updated_by
+updated_by : 1
+settings --> settings_30
+settings_30 --> id
+id : 67e5c29d5418a60001e1b3fd
+settings_30 --> group
+group : site
+settings_30 --> key
+key : meta_description
+settings_30 --> value
+value : None
+settings_30 --> type
+type : string
+settings_30 --> flags
+flags : None
+settings_30 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_30 --> created_by
+created_by : 1
+settings_30 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_30 --> updated_by
+updated_by : 1
+settings --> settings_31
+settings_31 --> id
+id : 67e5c29d5418a60001e1b3fe
+settings_31 --> group
+group : site
+settings_31 --> key
+key : og_image
+settings_31 --> value
+value : None
+settings_31 --> type
+type : string
+settings_31 --> flags
+flags : None
+settings_31 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_31 --> created_by
+created_by : 1
+settings_31 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_31 --> updated_by
+updated_by : 1
+settings --> settings_32
+settings_32 --> id
+id : 67e5c29d5418a60001e1b3ff
+settings_32 --> group
+group : site
+settings_32 --> key
+key : og_title
+settings_32 --> value
+value : None
+settings_32 --> type
+type : string
+settings_32 --> flags
+flags : None
+settings_32 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_32 --> created_by
+created_by : 1
+settings_32 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_32 --> updated_by
+updated_by : 1
+settings --> settings_33
+settings_33 --> id
+id : 67e5c29d5418a60001e1b400
+settings_33 --> group
+group : site
+settings_33 --> key
+key : og_description
+settings_33 --> value
+value : None
+settings_33 --> type
+type : string
+settings_33 --> flags
+flags : None
+settings_33 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_33 --> created_by
+created_by : 1
+settings_33 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_33 --> updated_by
+updated_by : 1
+settings --> settings_34
+settings_34 --> id
+id : 67e5c29d5418a60001e1b401
+settings_34 --> group
+group : site
+settings_34 --> key
+key : twitter_image
+settings_34 --> value
+value : None
+settings_34 --> type
+type : string
+settings_34 --> flags
+flags : None
+settings_34 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_34 --> created_by
+created_by : 1
+settings_34 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_34 --> updated_by
+updated_by : 1
+settings --> settings_35
+settings_35 --> id
+id : 67e5c29d5418a60001e1b402
+settings_35 --> group
+group : site
+settings_35 --> key
+key : twitter_title
+settings_35 --> value
+value : None
+settings_35 --> type
+type : string
+settings_35 --> flags
+flags : None
+settings_35 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_35 --> created_by
+created_by : 1
+settings_35 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_35 --> updated_by
+updated_by : 1
+settings --> settings_36
+settings_36 --> id
+id : 67e5c29d5418a60001e1b403
+settings_36 --> group
+group : site
+settings_36 --> key
+key : twitter_description
+settings_36 --> value
+value : None
+settings_36 --> type
+type : string
+settings_36 --> flags
+flags : None
+settings_36 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_36 --> created_by
+created_by : 1
+settings_36 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_36 --> updated_by
+updated_by : 1
+settings --> settings_37
+settings_37 --> id
+id : 67e5c29d5418a60001e1b404
+settings_37 --> group
+group : theme
+settings_37 --> key
+key : active_theme
+settings_37 --> value
+value : source
+settings_37 --> type
+type : string
+settings_37 --> flags
+flags : RO
+settings_37 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_37 --> created_by
+created_by : 1
+settings_37 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_37 --> updated_by
+updated_by : 1
+settings --> settings_38
+settings_38 --> id
+id : 67e5c29d5418a60001e1b405
+settings_38 --> group
+group : private
+settings_38 --> key
+key : is_private
+settings_38 --> value
+value : false
+settings_38 --> type
+type : boolean
+settings_38 --> flags
+flags : None
+settings_38 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_38 --> created_by
+created_by : 1
+settings_38 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_38 --> updated_by
+updated_by : 1
+settings --> settings_39
+settings_39 --> id
+id : 67e5c29d5418a60001e1b406
+settings_39 --> group
+group : private
+settings_39 --> key
+key : password
+settings_39 --> value
+value : 
+settings_39 --> type
+type : string
+settings_39 --> flags
+flags : None
+settings_39 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_39 --> created_by
+created_by : 1
+settings_39 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_39 --> updated_by
+updated_by : 1
+settings --> settings_40
+settings_40 --> id
+id : 67e5c29d5418a60001e1b407
+settings_40 --> group
+group : private
+settings_40 --> key
+key : public_hash
+settings_40 --> value
+value : 952afdbb98d833f188d4d9def70777
+settings_40 --> type
+type : string
+settings_40 --> flags
+flags : None
+settings_40 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_40 --> created_by
+created_by : 1
+settings_40 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_40 --> updated_by
+updated_by : 1
+settings --> settings_41
+settings_41 --> id
+id : 67e5c29d5418a60001e1b408
+settings_41 --> group
+group : members
+settings_41 --> key
+key : default_content_visibility
+settings_41 --> value
+value : public
+settings_41 --> type
+type : string
+settings_41 --> flags
+flags : None
+settings_41 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_41 --> created_by
+created_by : 1
+settings_41 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_41 --> updated_by
+updated_by : 1
+settings --> settings_42
+settings_42 --> id
+id : 67e5c29d5418a60001e1b409
+settings_42 --> group
+group : members
+settings_42 --> key
+key : default_content_visibility_tiers
+settings_42 --> value
+value : []
+settings_42 --> type
+type : array
+settings_42 --> flags
+flags : None
+settings_42 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_42 --> created_by
+created_by : 1
+settings_42 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_42 --> updated_by
+updated_by : 1
+settings --> settings_43
+settings_43 --> id
+id : 67e5c29d5418a60001e1b40a
+settings_43 --> group
+group : members
+settings_43 --> key
+key : members_signup_access
+settings_43 --> value
+value : all
+settings_43 --> type
+type : string
+settings_43 --> flags
+flags : None
+settings_43 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_43 --> created_by
+created_by : 1
+settings_43 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_43 --> updated_by
+updated_by : 1
+settings --> settings_44
+settings_44 --> id
+id : 67e5c29d5418a60001e1b40b
+settings_44 --> group
+group : members
+settings_44 --> key
+key : members_support_address
+settings_44 --> value
+value : noreply
+settings_44 --> type
+type : string
+settings_44 --> flags
+flags : PUBLIC,RO
+settings_44 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_44 --> created_by
+created_by : 1
+settings_44 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_44 --> updated_by
+updated_by : 1
+settings --> settings_45
+settings_45 --> id
+id : 67e5c29d5418a60001e1b40e
+settings_45 --> group
+group : members
+settings_45 --> key
+key : stripe_plans
+settings_45 --> value
+value : []
+settings_45 --> type
+type : array
+settings_45 --> flags
+flags : None
+settings_45 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_45 --> created_by
+created_by : 1
+settings_45 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_45 --> updated_by
+updated_by : 1
+settings --> settings_46
+settings_46 --> id
+id : 67e5c29d5418a60001e1b411
+settings_46 --> group
+group : members
+settings_46 --> key
+key : stripe_connect_livemode
+settings_46 --> value
+value : None
+settings_46 --> type
+type : boolean
+settings_46 --> flags
+flags : None
+settings_46 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_46 --> created_by
+created_by : 1
+settings_46 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_46 --> updated_by
+updated_by : 1
+settings --> settings_47
+settings_47 --> id
+id : 67e5c29d5418a60001e1b412
+settings_47 --> group
+group : members
+settings_47 --> key
+key : stripe_connect_display_name
+settings_47 --> value
+value : None
+settings_47 --> type
+type : string
+settings_47 --> flags
+flags : None
+settings_47 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_47 --> created_by
+created_by : 1
+settings_47 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_47 --> updated_by
+updated_by : 1
+settings --> settings_48
+settings_48 --> id
+id : 67e5c29d5418a60001e1b414
+settings_48 --> group
+group : members
+settings_48 --> key
+key : members_monthly_price_id
+settings_48 --> value
+value : None
+settings_48 --> type
+type : string
+settings_48 --> flags
+flags : None
+settings_48 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_48 --> created_by
+created_by : 1
+settings_48 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_48 --> updated_by
+updated_by : 1
+settings --> settings_49
+settings_49 --> id
+id : 67e5c29d5418a60001e1b415
+settings_49 --> group
+group : members
+settings_49 --> key
+key : members_yearly_price_id
+settings_49 --> value
+value : None
+settings_49 --> type
+type : string
+settings_49 --> flags
+flags : None
+settings_49 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_49 --> created_by
+created_by : 1
+settings_49 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_49 --> updated_by
+updated_by : 1
+settings --> settings_50
+settings_50 --> id
+id : 67e5c29d5418a60001e1b416
+settings_50 --> group
+group : members
+settings_50 --> key
+key : members_track_sources
+settings_50 --> value
+value : true
+settings_50 --> type
+type : boolean
+settings_50 --> flags
+flags : None
+settings_50 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_50 --> created_by
+created_by : 1
+settings_50 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_50 --> updated_by
+updated_by : 1
+settings --> settings_51
+settings_51 --> id
+id : 67e5c29d5418a60001e1b417
+settings_51 --> group
+group : members
+settings_51 --> key
+key : blocked_email_domains
+settings_51 --> value
+value : []
+settings_51 --> type
+type : array
+settings_51 --> flags
+flags : None
+settings_51 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_51 --> created_by
+created_by : 1
+settings_51 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_51 --> updated_by
+updated_by : 1
+settings --> settings_52
+settings_52 --> id
+id : 67e5c29d5418a60001e1b418
+settings_52 --> group
+group : members
+settings_52 --> key
+key : captcha_enabled
+settings_52 --> value
+value : false
+settings_52 --> type
+type : boolean
+settings_52 --> flags
+flags : None
+settings_52 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_52 --> created_by
+created_by : 1
+settings_52 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_52 --> updated_by
+updated_by : 1
+settings --> settings_53
+settings_53 --> id
+id : 67e5c29d5418a60001e1b419
+settings_53 --> group
+group : portal
+settings_53 --> key
+key : portal_name
+settings_53 --> value
+value : true
+settings_53 --> type
+type : boolean
+settings_53 --> flags
+flags : None
+settings_53 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_53 --> created_by
+created_by : 1
+settings_53 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_53 --> updated_by
+updated_by : 1
+settings --> settings_54
+settings_54 --> id
+id : 67e5c29d5418a60001e1b41a
+settings_54 --> group
+group : portal
+settings_54 --> key
+key : portal_button
+settings_54 --> value
+value : false
+settings_54 --> type
+type : boolean
+settings_54 --> flags
+flags : None
+settings_54 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_54 --> created_by
+created_by : 1
+settings_54 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_54 --> updated_by
+updated_by : 1
+settings --> settings_55
+settings_55 --> id
+id : 67e5c29d5418a60001e1b41b
+settings_55 --> group
+group : portal
+settings_55 --> key
+key : portal_plans
+settings_55 --> value
+value : ["free"]
+settings_55 --> type
+type : array
+settings_55 --> flags
+flags : None
+settings_55 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_55 --> created_by
+created_by : 1
+settings_55 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_55 --> updated_by
+updated_by : 1
+settings --> settings_56
+settings_56 --> id
+id : 67e5c29d5418a60001e1b41c
+settings_56 --> group
+group : portal
+settings_56 --> key
+key : portal_default_plan
+settings_56 --> value
+value : yearly
+settings_56 --> type
+type : string
+settings_56 --> flags
+flags : None
+settings_56 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_56 --> created_by
+created_by : 1
+settings_56 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_56 --> updated_by
+updated_by : 1
+settings --> settings_57
+settings_57 --> id
+id : 67e5c29d5418a60001e1b41d
+settings_57 --> group
+group : portal
+settings_57 --> key
+key : portal_products
+settings_57 --> value
+value : []
+settings_57 --> type
+type : array
+settings_57 --> flags
+flags : None
+settings_57 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_57 --> created_by
+created_by : 1
+settings_57 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_57 --> updated_by
+updated_by : 1
+settings --> settings_58
+settings_58 --> id
+id : 67e5c29d5418a60001e1b41e
+settings_58 --> group
+group : portal
+settings_58 --> key
+key : portal_button_style
+settings_58 --> value
+value : icon-and-text
+settings_58 --> type
+type : string
+settings_58 --> flags
+flags : None
+settings_58 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_58 --> created_by
+created_by : 1
+settings_58 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_58 --> updated_by
+updated_by : 1
+settings --> settings_59
+settings_59 --> id
+id : 67e5c29d5418a60001e1b41f
+settings_59 --> group
+group : portal
+settings_59 --> key
+key : portal_button_icon
+settings_59 --> value
+value : None
+settings_59 --> type
+type : string
+settings_59 --> flags
+flags : None
+settings_59 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_59 --> created_by
+created_by : 1
+settings_59 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_59 --> updated_by
+updated_by : 1
+settings --> settings_60
+settings_60 --> id
+id : 67e5c29d5418a60001e1b420
+settings_60 --> group
+group : portal
+settings_60 --> key
+key : portal_button_signup_text
+settings_60 --> value
+value : Subscribe
+settings_60 --> type
+type : string
+settings_60 --> flags
+flags : None
+settings_60 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_60 --> created_by
+created_by : 1
+settings_60 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_60 --> updated_by
+updated_by : 1
+settings --> settings_61
+settings_61 --> id
+id : 67e5c29d5418a60001e1b421
+settings_61 --> group
+group : portal
+settings_61 --> key
+key : portal_signup_terms_html
+settings_61 --> value
+value : None
+settings_61 --> type
+type : string
+settings_61 --> flags
+flags : None
+settings_61 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_61 --> created_by
+created_by : 1
+settings_61 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_61 --> updated_by
+updated_by : 1
+settings --> settings_62
+settings_62 --> id
+id : 67e5c29d5418a60001e1b422
+settings_62 --> group
+group : portal
+settings_62 --> key
+key : portal_signup_checkbox_required
+settings_62 --> value
+value : false
+settings_62 --> type
+type : boolean
+settings_62 --> flags
+flags : None
+settings_62 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_62 --> created_by
+created_by : 1
+settings_62 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_62 --> updated_by
+updated_by : 1
+settings --> settings_63
+settings_63 --> id
+id : 67e5c29d5418a60001e1b423
+settings_63 --> group
+group : email
+settings_63 --> key
+key : mailgun_domain
+settings_63 --> value
+value : None
+settings_63 --> type
+type : string
+settings_63 --> flags
+flags : None
+settings_63 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_63 --> created_by
+created_by : 1
+settings_63 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_63 --> updated_by
+updated_by : 1
+settings --> settings_64
+settings_64 --> id
+id : 67e5c29d5418a60001e1b424
+settings_64 --> group
+group : email
+settings_64 --> key
+key : mailgun_api_key
+settings_64 --> value
+value : None
+settings_64 --> type
+type : string
+settings_64 --> flags
+flags : None
+settings_64 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_64 --> created_by
+created_by : 1
+settings_64 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_64 --> updated_by
+updated_by : 1
+settings --> settings_65
+settings_65 --> id
+id : 67e5c29d5418a60001e1b425
+settings_65 --> group
+group : email
+settings_65 --> key
+key : mailgun_base_url
+settings_65 --> value
+value : None
+settings_65 --> type
+type : string
+settings_65 --> flags
+flags : None
+settings_65 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_65 --> created_by
+created_by : 1
+settings_65 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_65 --> updated_by
+updated_by : 1
+settings --> settings_66
+settings_66 --> id
+id : 67e5c29d5418a60001e1b426
+settings_66 --> group
+group : email
+settings_66 --> key
+key : email_track_opens
+settings_66 --> value
+value : true
+settings_66 --> type
+type : boolean
+settings_66 --> flags
+flags : None
+settings_66 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_66 --> created_by
+created_by : 1
+settings_66 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_66 --> updated_by
+updated_by : 1
+settings --> settings_67
+settings_67 --> id
+id : 67e5c29d5418a60001e1b427
+settings_67 --> group
+group : email
+settings_67 --> key
+key : email_track_clicks
+settings_67 --> value
+value : true
+settings_67 --> type
+type : boolean
+settings_67 --> flags
+flags : None
+settings_67 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_67 --> created_by
+created_by : 1
+settings_67 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_67 --> updated_by
+updated_by : 1
+settings --> settings_68
+settings_68 --> id
+id : 67e5c29d5418a60001e1b429
+settings_68 --> group
+group : amp
+settings_68 --> key
+key : amp
+settings_68 --> value
+value : false
+settings_68 --> type
+type : boolean
+settings_68 --> flags
+flags : None
+settings_68 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_68 --> created_by
+created_by : 1
+settings_68 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_68 --> updated_by
+updated_by : 1
+settings --> settings_69
+settings_69 --> id
+id : 67e5c29d5418a60001e1b42a
+settings_69 --> group
+group : amp
+settings_69 --> key
+key : amp_gtag_id
+settings_69 --> value
+value : None
+settings_69 --> type
+type : string
+settings_69 --> flags
+flags : None
+settings_69 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_69 --> created_by
+created_by : 1
+settings_69 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_69 --> updated_by
+updated_by : 1
+settings --> settings_70
+settings_70 --> id
+id : 67e5c29d5418a60001e1b42b
+settings_70 --> group
+group : firstpromoter
+settings_70 --> key
+key : firstpromoter
+settings_70 --> value
+value : false
+settings_70 --> type
+type : boolean
+settings_70 --> flags
+flags : None
+settings_70 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_70 --> created_by
+created_by : 1
+settings_70 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_70 --> updated_by
+updated_by : 1
+settings --> settings_71
+settings_71 --> id
+id : 67e5c29d5418a60001e1b42c
+settings_71 --> group
+group : firstpromoter
+settings_71 --> key
+key : firstpromoter_id
+settings_71 --> value
+value : None
+settings_71 --> type
+type : string
+settings_71 --> flags
+flags : None
+settings_71 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_71 --> created_by
+created_by : 1
+settings_71 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_71 --> updated_by
+updated_by : 1
+settings --> settings_72
+settings_72 --> id
+id : 67e5c29d5418a60001e1b42d
+settings_72 --> group
+group : labs
+settings_72 --> key
+key : labs
+settings_72 --> value
+value : {}
+settings_72 --> type
+type : object
+settings_72 --> flags
+flags : None
+settings_72 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_72 --> created_by
+created_by : 1
+settings_72 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_72 --> updated_by
+updated_by : 1
+settings --> settings_73
+settings_73 --> id
+id : 67e5c29d5418a60001e1b42e
+settings_73 --> group
+group : slack
+settings_73 --> key
+key : slack_url
+settings_73 --> value
+value : 
+settings_73 --> type
+type : string
+settings_73 --> flags
+flags : None
+settings_73 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_73 --> created_by
+created_by : 1
+settings_73 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_73 --> updated_by
+updated_by : 1
+settings --> settings_74
+settings_74 --> id
+id : 67e5c29d5418a60001e1b42f
+settings_74 --> group
+group : slack
+settings_74 --> key
+key : slack_username
+settings_74 --> value
+value : Ghost
+settings_74 --> type
+type : string
+settings_74 --> flags
+flags : None
+settings_74 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_74 --> created_by
+created_by : 1
+settings_74 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_74 --> updated_by
+updated_by : 1
+settings --> settings_75
+settings_75 --> id
+id : 67e5c29d5418a60001e1b430
+settings_75 --> group
+group : unsplash
+settings_75 --> key
+key : unsplash
+settings_75 --> value
+value : true
+settings_75 --> type
+type : boolean
+settings_75 --> flags
+flags : None
+settings_75 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_75 --> created_by
+created_by : 1
+settings_75 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_75 --> updated_by
+updated_by : 1
+settings --> settings_76
+settings_76 --> id
+id : 67e5c29d5418a60001e1b431
+settings_76 --> group
+group : views
+settings_76 --> key
+key : shared_views
+settings_76 --> value
+value : []
+settings_76 --> type
+type : array
+settings_76 --> flags
+flags : None
+settings_76 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_76 --> created_by
+created_by : 1
+settings_76 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_76 --> updated_by
+updated_by : 1
+settings --> settings_77
+settings_77 --> id
+id : 67e5c29d5418a60001e1b432
+settings_77 --> group
+group : editor
+settings_77 --> key
+key : editor_default_email_recipients
+settings_77 --> value
+value : visibility
+settings_77 --> type
+type : string
+settings_77 --> flags
+flags : None
+settings_77 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_77 --> created_by
+created_by : 1
+settings_77 --> updated_at
+updated_at : 2025-03-28 01:30:36
+settings_77 --> updated_by
+updated_by : 1
+settings --> settings_78
+settings_78 --> id
+id : 67e5c29d5418a60001e1b433
+settings_78 --> group
+group : editor
+settings_78 --> key
+key : editor_default_email_recipients_filter
+settings_78 --> value
+value : None
+settings_78 --> type
+type : string
+settings_78 --> flags
+flags : None
+settings_78 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_78 --> created_by
+created_by : 1
+settings_78 --> updated_at
+updated_at : 2025-03-28 01:30:35
+settings_78 --> updated_by
+updated_by : 1
+settings --> settings_79
+settings_79 --> id
+id : 67e5c29d5418a60001e1b434
+settings_79 --> group
+group : announcement
+settings_79 --> key
+key : announcement_content
+settings_79 --> value
+value : None
+settings_79 --> type
+type : string
+settings_79 --> flags
+flags : PUBLIC
+settings_79 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_79 --> created_by
+created_by : 1
+settings_79 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_79 --> updated_by
+updated_by : 1
+settings --> settings_80
+settings_80 --> id
+id : 67e5c29d5418a60001e1b435
+settings_80 --> group
+group : announcement
+settings_80 --> key
+key : announcement_visibility
+settings_80 --> value
+value : []
+settings_80 --> type
+type : array
+settings_80 --> flags
+flags : None
+settings_80 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_80 --> created_by
+created_by : 1
+settings_80 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_80 --> updated_by
+updated_by : 1
+settings --> settings_81
+settings_81 --> id
+id : 67e5c29d5418a60001e1b436
+settings_81 --> group
+group : announcement
+settings_81 --> key
+key : announcement_background
+settings_81 --> value
+value : dark
+settings_81 --> type
+type : string
+settings_81 --> flags
+flags : PUBLIC
+settings_81 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_81 --> created_by
+created_by : 1
+settings_81 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_81 --> updated_by
+updated_by : 1
+settings --> settings_82
+settings_82 --> id
+id : 67e5c29d5418a60001e1b437
+settings_82 --> group
+group : comments
+settings_82 --> key
+key : comments_enabled
+settings_82 --> value
+value : off
+settings_82 --> type
+type : string
+settings_82 --> flags
+flags : None
+settings_82 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_82 --> created_by
+created_by : 1
+settings_82 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_82 --> updated_by
+updated_by : 1
+settings --> settings_83
+settings_83 --> id
+id : 67e5c29d5418a60001e1b438
+settings_83 --> group
+group : analytics
+settings_83 --> key
+key : outbound_link_tagging
+settings_83 --> value
+value : true
+settings_83 --> type
+type : boolean
+settings_83 --> flags
+flags : None
+settings_83 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_83 --> created_by
+created_by : 1
+settings_83 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_83 --> updated_by
+updated_by : 1
+settings --> settings_84
+settings_84 --> id
+id : 67e5c29d5418a60001e1b439
+settings_84 --> group
+group : pintura
+settings_84 --> key
+key : pintura
+settings_84 --> value
+value : true
+settings_84 --> type
+type : boolean
+settings_84 --> flags
+flags : None
+settings_84 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_84 --> created_by
+created_by : 1
+settings_84 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_84 --> updated_by
+updated_by : 1
+settings --> settings_85
+settings_85 --> id
+id : 67e5c29d5418a60001e1b43a
+settings_85 --> group
+group : pintura
+settings_85 --> key
+key : pintura_js_url
+settings_85 --> value
+value : None
+settings_85 --> type
+type : string
+settings_85 --> flags
+flags : None
+settings_85 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_85 --> created_by
+created_by : 1
+settings_85 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_85 --> updated_by
+updated_by : 1
+settings --> settings_86
+settings_86 --> id
+id : 67e5c29d5418a60001e1b43b
+settings_86 --> group
+group : pintura
+settings_86 --> key
+key : pintura_css_url
+settings_86 --> value
+value : None
+settings_86 --> type
+type : string
+settings_86 --> flags
+flags : None
+settings_86 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_86 --> created_by
+created_by : 1
+settings_86 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_86 --> updated_by
+updated_by : 1
+settings --> settings_87
+settings_87 --> id
+id : 67e5c29d5418a60001e1b43c
+settings_87 --> group
+group : donations
+settings_87 --> key
+key : donations_currency
+settings_87 --> value
+value : USD
+settings_87 --> type
+type : string
+settings_87 --> flags
+flags : None
+settings_87 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_87 --> created_by
+created_by : 1
+settings_87 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_87 --> updated_by
+updated_by : 1
+settings --> settings_88
+settings_88 --> id
+id : 67e5c29d5418a60001e1b43d
+settings_88 --> group
+group : donations
+settings_88 --> key
+key : donations_suggested_amount
+settings_88 --> value
+value : 500
+settings_88 --> type
+type : number
+settings_88 --> flags
+flags : None
+settings_88 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_88 --> created_by
+created_by : 1
+settings_88 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_88 --> updated_by
+updated_by : 1
+settings --> settings_89
+settings_89 --> id
+id : 67e5c29d5418a60001e1b43e
+settings_89 --> group
+group : recommendations
+settings_89 --> key
+key : recommendations_enabled
+settings_89 --> value
+value : false
+settings_89 --> type
+type : boolean
+settings_89 --> flags
+flags : None
+settings_89 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_89 --> created_by
+created_by : 1
+settings_89 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_89 --> updated_by
+updated_by : 1
+settings --> settings_90
+settings_90 --> id
+id : 67e5c29d5418a60001e1b43f
+settings_90 --> group
+group : security
+settings_90 --> key
+key : require_email_mfa
+settings_90 --> value
+value : 0
+settings_90 --> type
+type : boolean
+settings_90 --> flags
+flags : None
+settings_90 --> created_at
+created_at : 2025-03-27 21:26:53
+settings_90 --> created_by
+created_by : 1
+settings_90 --> updated_at
+updated_at : 2025-03-27 21:26:53
+settings_90 --> updated_by
+updated_by : 1
+data --> tags
+tags --> tags_0
+tags_0 --> id
+id : 67e5c29a5418a60001e1b1b7
+tags_0 --> name
+name : News
+tags_0 --> slug
+slug : news
+tags_0 --> description
+description : None
+tags_0 --> feature_image
+feature_image : None
+tags_0 --> parent_id
+parent_id : None
+tags_0 --> visibility
+visibility : public
+tags_0 --> og_image
+og_image : None
+tags_0 --> og_title
+og_title : None
+tags_0 --> og_description
+og_description : None
+tags_0 --> twitter_image
+twitter_image : None
+tags_0 --> twitter_title
+twitter_title : None
+tags_0 --> twitter_description
+twitter_description : None
+tags_0 --> meta_title
+meta_title : None
+tags_0 --> meta_description
+meta_description : None
+tags_0 --> codeinjection_head
+codeinjection_head : None
+tags_0 --> codeinjection_foot
+codeinjection_foot : None
+tags_0 --> canonical_url
+canonical_url : None
+tags_0 --> accent_color
+accent_color : None
+tags_0 --> created_at
+created_at : 2025-03-27 21:26:50
+tags_0 --> created_by
+created_by : 1
+tags_0 --> updated_at
+updated_at : 2025-03-27 21:26:50
+tags_0 --> updated_by
+updated_by : 1
+data --> posts_tags
+posts_tags --> posts_tags_0
+posts_tags_0 --> id
+id : 67e5c29d5418a60001e1b3dc
+posts_tags_0 --> post_id
+post_id : 67e5c29b5418a60001e1b230
+posts_tags_0 --> tag_id
+tag_id : 67e5c29a5418a60001e1b1b7
+posts_tags_0 --> sort_order
+sort_order : 0
+data --> products
+products --> products_0
+products_0 --> id
+id : 67e5c29a5418a60001e1b1b4
+products_0 --> name
+name : Free
+products_0 --> slug
+slug : free
+products_0 --> active
+active : 1
+products_0 --> welcome_page_url
+welcome_page_url : None
+products_0 --> visibility
+visibility : public
+products_0 --> trial_days
+trial_days : 0
+products_0 --> description
+description : None
+products_0 --> type
+type : free
+products_0 --> currency
+currency : None
+products_0 --> monthly_price
+monthly_price : None
+products_0 --> yearly_price
+yearly_price : None
+products_0 --> created_at
+created_at : 2025-03-27 21:26:50
+products_0 --> updated_at
+updated_at : 2025-03-27 21:26:50
+products_0 --> monthly_price_id
+monthly_price_id : None
+products_0 --> yearly_price_id
+yearly_price_id : None
+products --> products_1
+products_1 --> id
+id : 67e5c29a5418a60001e1b1b5
+products_1 --> name
+name : daniel
+products_1 --> slug
+slug : default-product
+products_1 --> active
+active : 1
+products_1 --> welcome_page_url
+welcome_page_url : None
+products_1 --> visibility
+visibility : public
+products_1 --> trial_days
+trial_days : 0
+products_1 --> description
+description : None
+products_1 --> type
+type : paid
+products_1 --> currency
+currency : USD
+products_1 --> monthly_price
+monthly_price : 500
+products_1 --> yearly_price
+yearly_price : 5000
+products_1 --> created_at
+created_at : 2025-03-27 21:26:50
+products_1 --> updated_at
+updated_at : 2025-03-27 21:29:34
+products_1 --> monthly_price_id
+monthly_price_id : None
+products_1 --> yearly_price_id
+yearly_price_id : None
+data --> offers
+data --> benefits
+data --> products_benefits
+data --> posts_products
+data --> offer_redemptions
+data --> stripe_products
+data --> stripe_prices
+data --> snippets
+data --> custom_theme_settings
+custom_theme_settings --> custom_theme_settings_0
+custom_theme_settings_0 --> id
+id : 67e5c29f5418a60001e1b449
+custom_theme_settings_0 --> theme
+theme : source
+custom_theme_settings_0 --> key
+key : navigation_layout
+custom_theme_settings_0 --> type
+type : select
+custom_theme_settings_0 --> value
+value : Logo in the middle
+custom_theme_settings --> custom_theme_settings_1
+custom_theme_settings_1 --> id
+id : 67e5c29f5418a60001e1b44a
+custom_theme_settings_1 --> theme
+theme : source
+custom_theme_settings_1 --> key
+key : site_background_color
+custom_theme_settings_1 --> type
+type : color
+custom_theme_settings_1 --> value
+value : #ffffff
+custom_theme_settings --> custom_theme_settings_2
+custom_theme_settings_2 --> id
+id : 67e5c29f5418a60001e1b44b
+custom_theme_settings_2 --> theme
+theme : source
+custom_theme_settings_2 --> key
+key : header_and_footer_color
+custom_theme_settings_2 --> type
+type : select
+custom_theme_settings_2 --> value
+value : Background color
+custom_theme_settings --> custom_theme_settings_3
+custom_theme_settings_3 --> id
+id : 67e5c29f5418a60001e1b44c
+custom_theme_settings_3 --> theme
+theme : source
+custom_theme_settings_3 --> key
+key : title_font
+custom_theme_settings_3 --> type
+type : select
+custom_theme_settings_3 --> value
+value : Modern sans-serif
+custom_theme_settings --> custom_theme_settings_4
+custom_theme_settings_4 --> id
+id : 67e5c29f5418a60001e1b44d
+custom_theme_settings_4 --> theme
+theme : source
+custom_theme_settings_4 --> key
+key : body_font
+custom_theme_settings_4 --> type
+type : select
+custom_theme_settings_4 --> value
+value : Modern sans-serif
+custom_theme_settings --> custom_theme_settings_5
+custom_theme_settings_5 --> id
+id : 67e5c29f5418a60001e1b44e
+custom_theme_settings_5 --> theme
+theme : source
+custom_theme_settings_5 --> key
+key : signup_heading
+custom_theme_settings_5 --> type
+type : text
+custom_theme_settings_5 --> value
+value : None
+custom_theme_settings --> custom_theme_settings_6
+custom_theme_settings_6 --> id
+id : 67e5c29f5418a60001e1b44f
+custom_theme_settings_6 --> theme
+theme : source
+custom_theme_settings_6 --> key
+key : signup_subheading
+custom_theme_settings_6 --> type
+type : text
+custom_theme_settings_6 --> value
+value : None
+custom_theme_settings --> custom_theme_settings_7
+custom_theme_settings_7 --> id
+id : 67e5c29f5418a60001e1b450
+custom_theme_settings_7 --> theme
+theme : source
+custom_theme_settings_7 --> key
+key : header_style
+custom_theme_settings_7 --> type
+type : select
+custom_theme_settings_7 --> value
+value : Landing
+custom_theme_settings --> custom_theme_settings_8
+custom_theme_settings_8 --> id
+id : 67e5c29f5418a60001e1b451
+custom_theme_settings_8 --> theme
+theme : source
+custom_theme_settings_8 --> key
+key : header_text
+custom_theme_settings_8 --> type
+type : text
+custom_theme_settings_8 --> value
+value : None
+custom_theme_settings --> custom_theme_settings_9
+custom_theme_settings_9 --> id
+id : 67e5c29f5418a60001e1b452
+custom_theme_settings_9 --> theme
+theme : source
+custom_theme_settings_9 --> key
+key : background_image
+custom_theme_settings_9 --> type
+type : boolean
+custom_theme_settings_9 --> value
+value : true
+custom_theme_settings --> custom_theme_settings_10
+custom_theme_settings_10 --> id
+id : 67e5c29f5418a60001e1b453
+custom_theme_settings_10 --> theme
+theme : source
+custom_theme_settings_10 --> key
+key : show_featured_posts
+custom_theme_settings_10 --> type
+type : boolean
+custom_theme_settings_10 --> value
+value : false
+custom_theme_settings --> custom_theme_settings_11
+custom_theme_settings_11 --> id
+id : 67e5c29f5418a60001e1b454
+custom_theme_settings_11 --> theme
+theme : source
+custom_theme_settings_11 --> key
+key : post_feed_style
+custom_theme_settings_11 --> type
+type : select
+custom_theme_settings_11 --> value
+value : List
+custom_theme_settings --> custom_theme_settings_12
+custom_theme_settings_12 --> id
+id : 67e5c29f5418a60001e1b455
+custom_theme_settings_12 --> theme
+theme : source
+custom_theme_settings_12 --> key
+key : show_images_in_feed
+custom_theme_settings_12 --> type
+type : boolean
+custom_theme_settings_12 --> value
+value : true
+custom_theme_settings --> custom_theme_settings_13
+custom_theme_settings_13 --> id
+id : 67e5c29f5418a60001e1b456
+custom_theme_settings_13 --> theme
+theme : source
+custom_theme_settings_13 --> key
+key : show_author
+custom_theme_settings_13 --> type
+type : boolean
+custom_theme_settings_13 --> value
+value : true
+custom_theme_settings --> custom_theme_settings_14
+custom_theme_settings_14 --> id
+id : 67e5c29f5418a60001e1b457
+custom_theme_settings_14 --> theme
+theme : source
+custom_theme_settings_14 --> key
+key : show_publish_date
+custom_theme_settings_14 --> type
+type : boolean
+custom_theme_settings_14 --> value
+value : true
+custom_theme_settings --> custom_theme_settings_15
+custom_theme_settings_15 --> id
+id : 67e5c29f5418a60001e1b458
+custom_theme_settings_15 --> theme
+theme : source
+custom_theme_settings_15 --> key
+key : show_publication_info_sidebar
+custom_theme_settings_15 --> type
+type : boolean
+custom_theme_settings_15 --> value
+value : false
+custom_theme_settings --> custom_theme_settings_16
+custom_theme_settings_16 --> id
+id : 67e5c29f5418a60001e1b459
+custom_theme_settings_16 --> theme
+theme : source
+custom_theme_settings_16 --> key
+key : show_post_metadata
+custom_theme_settings_16 --> type
+type : boolean
+custom_theme_settings_16 --> value
+value : true
+custom_theme_settings --> custom_theme_settings_17
+custom_theme_settings_17 --> id
+id : 67e5c29f5418a60001e1b45a
+custom_theme_settings_17 --> theme
+theme : source
+custom_theme_settings_17 --> key
+key : enable_drop_caps_on_posts
+custom_theme_settings_17 --> type
+type : boolean
+custom_theme_settings_17 --> value
+value : false
+custom_theme_settings --> custom_theme_settings_18
+custom_theme_settings_18 --> id
+id : 67e5c29f5418a60001e1b45b
+custom_theme_settings_18 --> theme
+theme : source
+custom_theme_settings_18 --> key
+key : show_related_articles
+custom_theme_settings_18 --> type
+type : boolean
+custom_theme_settings_18 --> value
+value : true
+@enduml
