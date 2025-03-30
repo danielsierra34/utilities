@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Diagrama Interactivo con Mermaid.js</title>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  
+      mermaid.initialize({
+        startOnLoad: false, // Se carga después de leer el archivo externo
+        securityLevel: 'loose',
+        flowchart: { htmlLabels: true, useMaxWidth: false }
+      });
+  
+      document.addEventListener("DOMContentLoaded", async () => {
+        try {
+          const response = await fetch('mermaid.mmd'); // Cargar diagrama externo
+          const mermaidCode = await response.text();
+          
+          const container = document.querySelector("#mermaid-container");
+          container.innerHTML = `<pre class="mermaid">${mermaidCode}</pre>`;
+  
+          await mermaid.run();
+  
+          setTimeout(async () => {
+            const svg = document.querySelector(".mermaid svg");
+            if (svg) {
+              await import('https://cdnjs.cloudflare.com/ajax/libs/svg-pan-zoom/3.6.1/svg-pan-zoom.min.js');
+              const panZoom = window.svgPanZoom(svg, {
+                zoomEnabled: true,
+                controlIconsEnabled: true,
+                fit: true,
+                center: true
+              });
+              
+              await import('https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js');
+              const d3Svg = d3.select(svg);
+              d3Svg.selectAll("g.node").on("click", function () {
+                const node = d3.select(this);
+                const children = node.selectAll("g");
+                children.style("display", children.style("display") === "none" ? "block" : "none");
+              });
+            }
+          }, 500);
+        } catch (error) {
+          console.error("Error cargando el archivo Mermaid:", error);
+        }
+      });
+    </script>
+    <style>
+      #mermaid-container {
+        width: 100%;
+        height: 80vh;
+        border: 1px solid #ccc;
+        overflow: auto;
+      }
+    </style>
+  </head>
+<body>
+  <h1>Ghost Admin Navigation</h1>
+  <div id="mermaid-container"></div>
+</body>
+</html>
